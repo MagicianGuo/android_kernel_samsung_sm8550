@@ -28,10 +28,6 @@ cd "$(dirname "$0")"
 
 LOCALVERSION=-android13-8
 
-if [ "$LTO" == "thin" ]; then
-  LOCALVERSION+="-thin"
-fi
-
 ARGS="
 CC=clang
 ARCH=arm64
