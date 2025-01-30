@@ -22,15 +22,13 @@
 
 set -e
 
+LTO=thin
+
 TARGET_DEFCONFIG=${1:-kalama_gki_defconfig}
 
 cd "$(dirname "$0")"
 
 LOCALVERSION=-android13-8
-
-if [ "$LTO" == "thin" ]; then
-  LOCALVERSION+="-thin"
-fi
 
 ARGS="
 CC=clang
