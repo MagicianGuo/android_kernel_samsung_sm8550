@@ -1,4 +1,4 @@
 [submodule "KernelSU"]
 	path = KernelSU
 	url = https://github.com/MagicianGuo/KernelSU-Next-SUSFS-Patch.git
-	branch = android13-5.15-v1.0.4
+	branch = android13-5.15-ksu-v1.0.4-susfs-v1.5.3
